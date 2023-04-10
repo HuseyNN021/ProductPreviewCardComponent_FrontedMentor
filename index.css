@@ -1,0 +1,65 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+    background: rgb(225, 218, 218);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card {
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    border-radius: 10px;
+
+}
+.img{
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+    background-image: url(/image-product-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.context{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+h1{
+    width: 200px;
+}
+.Price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Price>p:first-child{
+    color: rgba(30, 113, 30, 0.789);
+    font-size: 25px;
+    font-weight: bold;
+}
+.Price>p:nth-child(2){
+ text-decoration:  line-through;
+}
+button{
+    padding: 13px;
+    background-color: rgba(30, 113, 30, 0.789);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
